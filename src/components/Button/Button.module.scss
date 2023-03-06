@@ -1,0 +1,40 @@
+//styling Button component using scss.
+$Primary-color: rgb(55, 181, 240);
+$Secondary-color: rgb(136, 0, 255);
+$Success-color: rgb(0, 243, 134);
+$Danger-color: rgb(235, 6, 40);
+
+.button {
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.primary {
+  background-color: $Primary-color;
+}
+.secondary {
+  background-color: $Secondary-color;
+}
+.success {
+  background-color: $Success-color;
+}
+.danger {
+  background-color: $Danger-color;
+}
+.round {
+  margin: 10px 20px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 20px;
+  color: black;
+  &:hover {
+    cursor: pointer;
+  }
+}

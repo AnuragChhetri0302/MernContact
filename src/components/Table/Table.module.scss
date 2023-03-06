@@ -1,0 +1,25 @@
+#customers {
+  width: 90%;
+  margin: 20px auto;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  table-layout: fixed;
+}
+
+#customers td,
+#customers th {
+  padding: 0px 7px;
+  border: 0.5px rgb(26, 14, 114) solid;
+}
+
+#customers tr:hover {
+  background-color: #ddd;
+}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: rgb(98, 7, 202);
+
+  color: white;
+}
